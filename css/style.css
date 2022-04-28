@@ -15,7 +15,6 @@ ul {
     align-items: center;
     justify-content: space-between;
     padding: 0 200px;
-    margin: -10px;
 }
 
 .header-links {
@@ -27,4 +26,18 @@ ul {
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.content-one {
+    background-color: #1f2937;
+    color: white;
+    height: 400px;
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.placeholder {
+    background-color: lightgrey;
 }

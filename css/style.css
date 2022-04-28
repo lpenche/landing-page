@@ -100,7 +100,7 @@ button {
 .info {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 50px;
 }
 
 .image-container {
@@ -116,6 +116,41 @@ button {
     align-items: center;
 }
 
-.illustration {
-    width: 200px;
+.illustration, .subtext {
+    width: 150px;
 }
+
+.container-three {
+    background-color: #e5e7eb;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.author {
+    font-size: 26px;
+    font-weight: bold;
+    color: #1f2937;
+    align-self: flex-end;
+}
+
+p {
+    margin: 5px;
+}
+

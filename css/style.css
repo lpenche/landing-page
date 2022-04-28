@@ -34,10 +34,37 @@ ul {
     height: 400px;
     padding: 0 200px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.sub-hero {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-family: roboto, sans-serif;
+    border-radius: 10px;
+    border: 0;
+    padding: 5px 25px;
+}
 .placeholder {
     background-color: lightgrey;
 }
+
+.left {
+    width: 50%;
+}
+
+.right {
+    flex: 1;
+}
+

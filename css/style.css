@@ -1,3 +1,7 @@
+body {
+    font-family: roboto, sans-serif;
+
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -5,13 +9,21 @@ ul {
 }
 
 .header {
+    background-color: #1f2937;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 200px;
+    padding: 0 200px;
 }
 
 .header-links {
     display: flex;
     gap: 20px;
+    color: lightgrey;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
 }

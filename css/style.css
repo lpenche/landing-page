@@ -162,6 +162,41 @@ p {
     margin: 5px;
 }
 
+.container-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.action-container {
+    background-color: #1f2f37;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    padding: 20px 40px;
+    gap: 40px;
+}
+
+.action-header {
+    color: #e5e7eb;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.action-subheader {
+    color: #e5e7eb;
+    font-size: 20px;
+}
+
+.visit {
+    border: 2px #e5e7eb solid;
+    font-size: 20px;
+    background-color: #1f2f37;
+}
+
 .footer {
     background-color: #1f3726;
     display: flex;
